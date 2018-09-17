@@ -1,0 +1,156 @@
+.fondo {
+background-image: url(../Imagenes/fondo.jpg);
+background-size: contain;
+}
+.btn-lg{
+    font-size: 140%;
+  
+}
+.header {
+  width: 100%;
+  height: 50px;
+  margin-top: -5px;
+  background-color:#007F7D;
+  position: absolute;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.brand{
+    font-size: 380%;
+    font-family: 'Tangerine', cursive;
+    
+}
+.brand2{
+font-size: 120%;
+font-family: 'Muli', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 150%;
+    font-family: 'Tangerine', cursive;  
+}
+.menu {
+  color: #007F7D;
+}
+.menu ul {
+	list-style-type: none; /*to remove bullets*/
+	text-align: center;
+}
+.menu li{
+	float: left;
+	font-size: 15px;
+}
+
+.menu li a {
+color:#ffffff;
+  text-decoration:none;
+  padding:1px 10px;
+  display: block;
+}
+
+.menu li ul {
+	float: left;
+	display: none;
+}
+
+.menu li:hover > ul {
+	background-color: #007F7D;
+  margin-top: 20px;
+	width: 20%;
+	display: block;
+}
+
+li a:hover {
+   
+}
+
+.botonMenuPrincipal {
+    background-color: darkgoldenrod;
+    width: 45%;
+    height: 100px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 3%;
+    text-align: center;
+}
+.botonMenuPrincipalinferior {
+    background-color: darkgoldenrod;
+    width: 45%;
+    height: 100px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 27%;
+    text-align: center;
+}
+
+.containerbody {
+    width: 700px;
+    height: auto;
+}
+
+
+.footer {
+ /* background-color:#007F7D;*/
+  background-color:#717171;
+  margin-top: 3%;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffff;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.calendario {
+}
+
+.calendar {
+    width: 500px;
+    box-shadow: 0 0 5px 5px #5B7F7F;
+    background-color:#00CCC8;
+    margin-top: 50px;
+    margin-left: 5%;
+    padding:20px;
+}
+
+.calendar .ui-widget-header {
+    border:none;
+    background:none;
+}
+
+.calendar .ui-datepicker {
+    width: 450px;
+    border: 1px solid #007F7D;
+    padding:5px 10px 5px;
+}
+
+.calendar .ui-corner-all {
+    border-radius:10px;
+}
+
+.calendar .ui-widget-content {
+    background: none;
+}
+
+.calendar .ui-datepicker-calendar {
+   color: #fff;
+}
+
+.calendar .ui-state-hover {
+   background-color: #007F7D !important;
+   color: #007F7D !important;
+}
+
+.calendar .ui-state-default {
+    text-align:center;
+    background: none;
+    color: #fff;
+    width:40px;
+    padding:10px 0 10px 0;
+}

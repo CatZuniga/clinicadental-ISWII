@@ -1,0 +1,190 @@
+.diente {
+    position: static;
+    width: 0px;
+    height: auto;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.cuadro{
+    background-color: #FFFFFF;
+    border: 1px solid #7F7F7F;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    left: 45px;
+     border-radius: 50% ;
+    
+}
+
+
+
+
+.centro {
+    background: #F3F3F3;
+    border: 1px solid #7F7F7F;
+    width: 27px;
+    height: 27px;
+    top: -49px;
+    left: 46px;
+    position: relative;
+    border-radius: 50% ;
+}
+
+.centro:hover, .izquierdo:hover , .derecha:hover, .debajo:hover, .arriba:hover{
+    border: 1px solid rgba(117, 198, 243, 0.4);
+    /*background-color: rgba(117, 198, 243, 0.4);*/   
+    cursor: pointer;
+}
+
+
+
+
+.izquierdo {
+    top: 1px !important;
+    left: 28px !important;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.debajo {
+    top: 2px !important;
+    left: 45px !important;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.derecha {
+    top: -29px !important;
+    left: 61px !important;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+.click-red {
+    background-color: #bd0202 !important;
+}
+.click-blue {
+    background-color: #14057f !important;
+}
+.click-yellow {
+    background-color: #f5ff75 !important;
+}
+
+.hidden{
+    display: none;
+    
+}
+
+.diagonal{
+     width: 6px;
+    height: 50px; 
+    background: red;
+     border: 1px solid red;
+     transform: rotate(-50deg);
+      position: relative;
+     top: 196px;
+    left:108px;
+    z-index: 1000;
+    position: absolute;
+}
+
+.equiz{
+     width: 6px;
+    height: 50px; 
+    background: red;
+     border: 1px solid red;
+     transform: rotate(50deg);
+      position: absolute;
+     top: 196px;
+    left:108px;
+    z-index: 1000;
+}
+
+.diente-leche {
+    position: relative;
+    width: 0px;
+    height: auto;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.cuadro-leche {
+    border: 1px solid #7F7F7F;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    left: 45px;
+    -webkit-border-radius: 80px 80px 0px 15px;
+    -moz-border-radius: 80px 80px 0px 15px;
+    border-radius: 80px 80px 0px 15px;
+}
+
+.cuadro-leche:hover {
+    /*background: rgba(117, 198, 243, 0.4);*/
+    
+    cursor: pointer;
+}
+
+.izquierdo-leche {
+    top: -4px !important;
+    left: 37px !important;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.top-leche {
+    width: 15px;
+    left: 47px;
+}
+
+.debajo-leche {
+    width: 15px;
+    top: -8px !important;
+    left: 47px !important;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.derecha-leche {
+    top: -30px !important;
+    left: 58px !important;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.centro-leche {
+    background: #F3F3F3;
+    border: 1px solid #7F7F7F;
+    width: 15px;
+    height: 13px;
+    top: -43px;
+    left: 47px;
+    position: relative;
+}
+
+.centro-leche:hover {
+    border: 1px solid rgba(117, 198, 243, 0.4);
+    /*background-color: rgba(117, 198, 243, 0.4);*/
+    
+    cursor: pointer;
+}
